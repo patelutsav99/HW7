@@ -94,8 +94,7 @@ the rules and messages will be for empty blanks, invalid numbers, and/or greater
             var secondvertical = Number(document.getElementById("lastVertical").value);
 
           /* outputing the numbers in the table*/
-          /*
-          function outputnumber(horizontal, secondhorizontal, vertical, secondvertical)*/
+          
              var outputnumber = "<tr><th> </th>";
              for(var i = horizontal; i <= secondhorizontal; i++){
                outputnumber += "<th>" + i + "</th>";
